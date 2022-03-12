@@ -1,0 +1,8 @@
+extends layout
+
+block content
+
+    form(method="POST" action="/new")
+        input(type=text name="user" placeholder="what is your name?")
+        input(type=text name="text" placeholder="what would you like to say?")
+        button(type=submit) Submit
